@@ -1,0 +1,200 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* Text formatting */
+h1,h2,h3,h4,h5,h6{
+    font-family: "Pacifico", sans-serif;
+}
+p,li,a{
+    font-family: "Roboto", sans-serif;
+    color: #0e0e0e;
+    text-decoration: none;
+}
+
+/* Header */
+header{
+    height: 150px;
+    width: auto;
+    display: flex;
+    background-color: #2c2c2c;
+    align-items: center;
+}
+
+/* Logo */
+.logo{
+    flex-grow: 1;
+    height: 130px;
+    margin-left: 20px;
+}
+.logo > a > img{
+    height: 100%;
+    width: auto;
+} 
+
+/* Menu */
+header > nav > menu{
+    display: flex;
+    list-style: none;
+    margin-right: 40px;
+}
+
+header > nav > menu > li > a{
+    color: #f5efef;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+/* masthead */
+.masthead{
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #7b0606;
+}
+h1 {
+    font-size: 40px;
+    color: #c5bb2d;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .7);
+}
+
+/* Background image */
+main{
+    background-image: url("../img/STPConcert.jpg");
+    background-size: cover;
+    height: 75vh;
+}
+
+/* Section containing Lyrics and music video */
+
+main > section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+}
+main > section > div{
+    margin: 0 50px;
+}
+
+/* Lyrics */
+/*
+    ga-ma - Ga Maamli
+    dancing - Dancing Script
+    anton - Anton SC
+    sriracha - Sriracha
+    caveat - Caveat
+    dead, for, you - Rubik Mono One
+    marker - Permanent Marker
+    old-stand - Old Standard TT
+    oregano - Oregano
+    bowlby - Bowlby One SC
+    pirata - Pirata One
+    just-me - Just Me Again Down Here
+    amatic - Amatic SC
+*/
+.lyrics{
+    height: 315px;
+    width: 560px;
+    background-color: #2c2c2c;
+    overflow-x: hidden;
+    padding: 10px;
+}
+.lyrics > p{
+    font-size: 20px;
+    color: #bdbdbd;
+    margin-bottom: 30px;
+}
+.ga-ma{
+    font-family: "Ga Maamli", sans-serif;
+    font-size: 25px;
+    color: #5c3eb6;
+}
+.dancing{
+    font-family: "Dancing Script", sans-serif;
+    color: #25a270;
+}
+.anton{
+    font-family: "Anton SC", sans-serif;
+    font-size: 30px;
+    color: #d76e11;
+}
+.sriracha{
+    font-family: "Sriracha", sans-serif;
+    font-size: 24px;
+    color: #d9cc18;
+}
+.caveat{
+    font-family: "Caveat", sans-serif;
+    color: #e33613;
+    font-size: 30px;
+}
+.dead{
+    font-family: "Rubik Mono One", sans-serif;
+    color: #b91818;
+}
+.for{
+    font-family: "Rubik Mono One", sans-serif;
+    font-size: 28px;
+    color: #c71919;
+}
+.you{
+    font-family: "Rubik Mono One", sans-serif;
+    font-size: 32px;
+    color: #e31e1e;
+}
+.marker{
+    font-family: "Permanent Marker", sans-serif;
+    font-size: 25px;
+    color: #009623;
+}
+.old-stand{
+    font-family: "Old Standard TT", sans-serif;
+    font-size: 12px;
+    color: #a101cd;
+}
+.oregano{
+    font-family: "Oregano", sans-serif;
+    font-size: 12px;
+    color: #8421d5;
+}
+.bowlby{
+    font-family: "Bowlby One SC", sans-serif;
+    font-size: 30px;
+    color: #ce0404;
+}
+.pirata{
+    font-family: "Pirata One", sans-serif;
+    font-size: 26px;
+    color: #069cc1;
+}
+.just-me{
+    font-family: "Just Me Again Down Here", sans-serif;
+    font-size: 16px;
+    color: #284c9f;
+}
+.amatic{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 16px;
+    color: #3285ae;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    background-color: #2c2c2c;
+    height: 200px;
+    align-items: center;
+}
+.footer-logo{
+    height: 175px;
+    flex-grow: 1;
+    margin-left: 30px;
+}
+.footer-logo > a > img{
+    height: 100%;
+    width: auto;
+}
